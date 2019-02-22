@@ -1,0 +1,54 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+#content {
+	
+	background-image: url('../Images/cyootAnimals.jpg');
+	
+}
+
+#box {
+	border:30px solid black;
+	
+	
+}
+
+#seperator {
+	border: 8px solid green;
+}
+
+#subReddit {
+	text-align: center;
+	color: darkgreen;
+	font-size: 1in;
+	font-family: Papyrus;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#redditTitle {
+	background-color: purple;
+	color: green;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+

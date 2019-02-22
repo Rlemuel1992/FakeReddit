@@ -1,0 +1,14 @@
+﻿<div id="content">
+	<div id="box">
+		<h2 id="subReddit">/r/aww</h2>
+		@foreach (var titles in ViewBag.RedditInfo)
+		{
+
+			<p id="redditTitle"><a href="@titles.URL" /></p>
+			<h3 id="redditTitle">@titles.Title</h3>
+			<img src="@titles.Thumbnail" /> <p></p>
+			<div id="seperator"></div>
+
+		}
+	</div>
+</div>
